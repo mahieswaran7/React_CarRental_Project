@@ -1,0 +1,256 @@
+@font-face {
+    font-family: rent-car;
+    /* src: url(../../resources/bruce-forever-font/Al_Veshion_PersonalUseOnly.otf); */
+    src: url(../../resources/bruce-forever-font/Handfine.ttf);
+    src: url(../../resources/bruce-forever-font/Longline\ Regular\ Demo.ttf);
+    src: url(../../resources/bruce-forever-font/Carlo.ttf)
+}
+
+*{
+    
+
+    font-family: rent-car;
+    color: 	#FFD700
+}
+
+body {
+    background-color: #222222;
+}
+
+input{
+    color: black !important;
+}
+
+#hovers{
+    transition: transform 3s;   
+    background-color: gray !important;
+}
+img{
+  width:100px;
+  height:70px;
+  border:none;
+  border-radius:25%;
+}
+#hovers:hover{
+    
+    transform: scale(1.05);
+    /* box-shadow: 1px 1px 30px 	#FFD700; */
+}
+
+
+#buttonss:hover{
+    /* background-color: #FFD700 !important;
+    color: #222222 !important; */
+    
+}
+
+/* CSS */
+
+
+/* CSS */
+button-29 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button-29:after {
+  content: "";
+  background-color: #ffe54c  ;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+button-29:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  #button-29 {
+    padding: 13px 50px 13px;
+  }
+}
+
+#card{
+    background-color: gray !important;
+    transition: transform 3s;   
+}
+#card:hover{
+    
+    transform: scale(1.05);
+    box-shadow: 1px 1px 30px 	#FFD700 !important;
+}
+
+
+#avatar{
+    border-radius: 50% !important;
+}
+
+#backgound{
+    background-color: #222222 !important;
+}
+
+
+
+.navbars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(120deg, #000000, #333333); */
+  height: 50px;
+}
+
+
+.navbars a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 10px;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 5px;
+
+}
+
+button-29:hover{
+  box-shadow: 1px 1px 20px #FFD700;
+}
+
+.avatar{
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  /* background: linear-gradient(120deg, #0f0f0f, #666464); */
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: linear-gradient(120deg, #000000, #333333); */
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  z-index: 1000;
+}
+
+#errror_image{
+  width: 100%;
+  height: 100%;
+}
+.hello{
+ background-color:gold;
+ text-decoration: none;
+}
+
+
+#button-73 {
+  appearance: none;
+  background-color: #FFC229;
+ 
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+}
+
+.button-33 {
+  background-color: #03471c;
+  border-radius: 100px;
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  color: white;
+  cursor: pointer;
+  /* display: inline-block; */
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#button-73:hover {
+  background-color: #FFFFFF;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  
+  transform: scale(1.125);
+}
+
+#button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  #button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }}
+.button-33:hover {
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+ 
+  transform: scale(1.05) rotate(-1deg);
+}
+.topic{
+  text-align: center;
+ 
+
+  
+}
+#add-upp{
+/* background-image: url(https://th.bing.com/th/id/R.6d7b17170e24f09f50b9c31c733af299?rik=HDSiLK68tUdVbQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fytPu10t.jpg&ehk=h8OzarAJhfrwJrkcYS%2bAcs%2frK%2bjudGibZAt3R9dEyzE%3d&risl=&pid=ImgRaw&r=0); */
+ background-repeat: none;
+ background-size: cover;
+
+  
+}
+
+
+
+#result{
+  color: #ADCFFF !important;
+}
